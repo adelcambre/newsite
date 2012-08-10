@@ -29,4 +29,6 @@
       }
     }
   })
+  // wait for images to load?
+  setTimeout(function() { $('[data-spy="scroll"]').scrollspy("refresh") }, 100)
 }(window.jQuery)
